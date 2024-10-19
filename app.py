@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Song Recommendation", layout="wide")
+st.set_page_config(page_title="PlaylistPilot", layout="wide", page_icon='file.png')
 
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
